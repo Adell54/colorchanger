@@ -1,16 +1,10 @@
-# colorchanger
+# Explanation
 
-A new Flutter project.
+Random Color Generation:
+The getRandomColor() method uses Random() to generate a random RGB color.
 
-## Getting Started
+Gradient Effect:
+The app uses a LinearGradient that transitions from the random base color to a darker version (created through changing the alpha value).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Direction Cycling:
+The directions list holds four pairs of alignment values that define the gradientss start and end. Each tap on the Change Direction button cycles to the next gradient alignment.
