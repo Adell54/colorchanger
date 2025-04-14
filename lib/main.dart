@@ -25,7 +25,7 @@ class _ColorChangerScreenState extends State<ColorChangerScreen> {
   Color baseColor = Colors.blue;
   int directionIndex = 0;
 
-  // List of gradient direction pairs
+ 
   final List<List<Alignment>> directions = [
     [Alignment.topCenter, Alignment.bottomCenter],
     [Alignment.centerLeft, Alignment.centerRight],
@@ -41,7 +41,7 @@ class _ColorChangerScreenState extends State<ColorChangerScreen> {
     'Diagonal ',
   ];
 
-  // Function to generate a random color
+  
   Color getRandomColor() {
     return Color.fromARGB(
       255,
